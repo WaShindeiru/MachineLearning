@@ -1,0 +1,64 @@
+lambda: 100
+Train cost: 0.0039309016839154
+Test cost: 0.8551112961181714
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        16
+           1       1.00      0.88      0.94        17
+           2       0.86      1.00      0.92        12
+
+    accuracy                           0.96        45
+   macro avg       0.95      0.96      0.95        45
+weighted avg       0.96      0.96      0.96        45
+
+lambda: 10
+Train cost: 0.01767521046887275
+Test cost: 0.8407350879425732
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        16
+           1       1.00      0.88      0.94        17
+           2       0.86      1.00      0.92        12
+
+    accuracy                           0.96        45
+   macro avg       0.95      0.96      0.95        45
+weighted avg       0.96      0.96      0.96        45
+
+lambda: 1
+Train cost: 0.04644167541682519
+Test cost: 0.06549710850943696
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        16
+           1       1.00      1.00      1.00        17
+           2       1.00      1.00      1.00        12
+
+    accuracy                           1.00        45
+   macro avg       1.00      1.00      1.00        45
+weighted avg       1.00      1.00      1.00        45
+
+lambda: 0.1
+Train cost: 0.10023986866897136
+Test cost: 0.12376916472717424
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        16
+           1       0.94      1.00      0.97        17
+           2       1.00      0.92      0.96        12
+
+    accuracy                           0.98        45
+   macro avg       0.98      0.97      0.98        45
+weighted avg       0.98      0.98      0.98        45
+
+lambda: 0.01
+Train cost: 0.20473903547555922
+Test cost: 0.24077370624324304
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        16
+           1       0.77      1.00      0.87        17
+           2       1.00      0.58      0.74        12
+
+    accuracy                           0.89        45
+   macro avg       0.92      0.86      0.87        45
+weighted avg       0.91      0.89      0.88        45
